@@ -1,0 +1,27 @@
+{
+  "name": "Traveous",
+  "short_name": "xt1",
+  "description": "Traverous Client Push Configuration on Web",
+  "start_url": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f5f5f5",
+  "theme_color": "#f5f5f5",
+  "icons": [{
+      "src": "/assets/images/online.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/assets/images/play.png",
+      "type": "image/png",
+      "sizes": "512x512"
+  }],
+  "author": {
+    "name": "Emad Ehsan",
+    "website": "https://github.com/emadehsan",
+    "github": "https://github.com/emadehsan"
+  },
+  "gcm_sender_id": "593027341827",
+  "gcm_user_visible_only": true
+}
