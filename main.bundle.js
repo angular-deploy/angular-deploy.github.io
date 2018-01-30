@@ -5081,9 +5081,11 @@ var Util = (function () {
         return sentence;
     };
     // static PARSE_SERVER_URL = 'http://localhost:1337/parse';
-    Util.PARSE_SERVER_URL = 'http://xt1.westeurope.cloudapp.azure.com:1337/parse';
+    // static PARSE_SERVER_URL = 'http://xt1.westeurope.cloudapp.azure.com:1337/parse';
+    Util.PARSE_SERVER_URL = 'https://api.traverous.com/parse';
     // static PARSE_LIVE_QUERY_URL = 'ws://localhost:1337/parse/live/';
-    Util.PARSE_LIVE_QUERY_URL = 'ws://xt1.westeurope.cloudapp.azure.com:1337/parse/live/';
+    // static PARSE_LIVE_QUERY_URL = 'ws://xt1.westeurope.cloudapp.azure.com:1337/parse/live/';
+    Util.PARSE_LIVE_QUERY_URL = 'wss://api.traverous.com/parse/live/';
     Util.PARSE_APP_ID = 'MY_APP_ID';
     return Util;
 }());
